@@ -1,0 +1,76 @@
+#HTML
+---------------
+Q1. What is the purpose of the `<track>` tag, and when should it be used?
+[OPTION - D]
+A) The `<track>` tag is used for specifying subtitles, captions, and other types of time-based text. It is
+typically applied as a child of the `<audio>` and `<video>` tag. 
+
+Q2. What are the best examples of void elements?
+[OPTION - B]
+A) `<br><base><source>`
+
+Q3. In HTML5, which tag or tags embed a webpage inside of a webpage?
+[OPTION - C]
+A) `<iframe>`
+
+Q4. Where do `<header>` and `<footer>` tags typically occur?
+[OPTION - B]
+A) as children of `<body>, <article>, and <section>` tags
+
+Q5. What is the best way to apply bold styling to text?
+[OPTION - A]
+A) `<strong>`
+
+#CSS
+---------------
+Q1. Among these selectors which selector has the highest specificity ranking for selecting the
+anchor link element?
+[OPTION - A]
+A) `.example a`
+
+Q2. Using an attribute selector, how would you select an `<a>` element with a "title" attribute?
+[OPTION - A]
+`a[title]{...}`
+
+Q3. What is the CSS selector for an `<a>` tag containing the title attribute?
+[OPTION - A]
+A) `a[title]`
+
+Q4. CSS grid and flexbox are now becoming a more popular way to create page layouts. However,
+floats are still commonly used, especially when working with an older code base, or if you need to
+support older browser version. What are two valid techniques used to clear floats?
+[OPTION - D]
+A) Use the "clearfix hack" on the parent element or use the overflow property with a value other than
+"visible."
+
+Q5. What element(s) do the following selectors match to?
+[OPTION - C]
+A)  1. An element with an class of "nav"
+    2. A nav element
+    3. An element with a id of "nav"
+
+#GIT
+---------------
+Q1. How can you check your current git version?
+[OPTION - B]
+A) git --version
+
+Q2. What command lets you create a connection between a local and remote repository?
+[OPTION - B]
+A) git remote add origin
+
+Q3. Describe what these Git commands do to the commit history:
+[OPTION - B]
+A) The current branch's HEAD is reset back five commits, then prior commits are squashed
+into a single commit.
+
+Q4. Your current project has several branches; master, beta, and push-notifications.
+You've just finished the notification feature in the push-notification branch, and you want to
+commit it to beta branch. How can you accomplish this?
+[OPTION - D]
+A) Checkout the beta branch and run git merge push-notification
+
+Q5. Which of the following is true you when you use the following command?
+`git add -A`
+[OPTION - A]
+A) All new and updated files are staged
